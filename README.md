@@ -4,12 +4,12 @@ Compile prjVBA65.dll and AutoIndentCodeFormat.dll to the VB98 folder, as adminis
 An upgrade for the Visual Basic 6.0 IDE is now available as one single addin.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class (clsAPCIntegration.cls).  It duplicates several advanced VB.NET IDE features including, auto indenting (Pretty listing, reformatting of code), scroll wheel support, forms and controls renaming, Start without debugging, and many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and its available code base.  It also has an option to detect file changes outside of the code editor that allows you to reload files from outside, or reject/overwrite them.  Very nice.  It supports a use of the language that accomodates porting VB code, both forwards and backwards.  Auto class instancing, and auto API insertion are in the works, as hybrid layer before/during the build process.  Compile the dll to this folder path: C:\Program Files (x86)\Microsoft Visual Studio\VB98\AutoIndentCodeFormat.dll To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
  Visual Basic for Applications is an embeddable BASIC language software product comprised of the following components:
-* VBA
-* APC
-* Microsoft Forms
-* Core Technology   
-* End User Documentation and derivatives
-* VBA Core Installer Package
+ * VBA
+ * APC
+ * Microsoft Forms
+ * Core Technology   
+ * End User Documentation and derivatives
+ * VBA Core Installer Package
 
 VBA 
 These are the binary files that make up the core VBA deliverable.  This includes the language runtime and user interface components including editing, debugging, project management, property control. It also includes the files need for Multi-threading and the multi-threading runtime. 
