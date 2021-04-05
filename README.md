@@ -1,9 +1,10 @@
 1. Download and merge the VBA SDK with WinRAR, for installation.
-2. Install VBA SDK
-3. Unzip projects, and move the contents inside the VB98 folder to C:\Program Files (x86)\Microsoft Visual Studio\VB98
-4. Compile prjVBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-5. Compile AutoIndentCodeFormat.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-6. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
+2. Install the VBA 6.5 SDK
+3. Download and unzip projects
+4. Move the contents inside the VB98 folder to C:\Program Files (x86)\Microsoft Visual Studio\VB98
+5. Compile prjVBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+6. Compile AutoIndentCodeFormat.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+7. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 An upgrade for the Visual Basic 6.0 IDE is now available as one single addin.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class (clsAPCIntegration.cls).  It duplicates several advanced VB.NET IDE features including, auto indenting (Pretty listing, reformatting of code), scroll wheel support, forms and controls renaming, Start without debugging, and many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and its available code base.  API's and their types can be inserted automatically when the name of the API is typed into the code editor. An error list can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors with a jump to error ability.  There is also an option to detect file changes outside of the code editor that allows you to reload files from outside, or reject/overwrite them.  It supports a use of the language that accomodates porting VB code, both forwards and backwards. Auto class instancing, and auto  are in the works, as hybrid layer before/during the build process.
 
