@@ -2,7 +2,7 @@
 2. Install the VBA 6.5 SDK
 3. Download and unzip projects
 4. Move the contents inside the VB98 folder to C:\Program Files (x86)\Microsoft Visual Studio\VB98
-5. Compile prjVBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+5. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 6. Compile AutoIndentCodeFormat.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 7. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
