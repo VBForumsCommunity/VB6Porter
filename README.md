@@ -1,7 +1,7 @@
 1. Download and merge the VBA SDK with WinRAR, for installation.
 2. Install the VBA 6.5 SDK
 3. Download and unzip projects
-4. Move the contents inside the Template folder to C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
+4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
 5. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 6. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 7. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
