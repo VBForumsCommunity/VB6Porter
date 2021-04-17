@@ -12,6 +12,18 @@
 
 This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including, auto indenting (Pretty listing, reformatting of code), scroll wheel support, forms and controls renaming, Start without debugging, greater number of undos, and many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and the available code base.  A detailed error list can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to any of the errors listed.  There is also an option to detect file changes outside of the code editor that allows you to reload files from outside, or reject/overwrite them.  It supports a use of the language that accomodates porting VB code, both forwards and backwards. API's and their types can be inserted automatically when the name of the API is typed into the code editor.  Auto class instancing is still in the works to replicate VB.NET namespaces in VB6.
 
+Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
+Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
+
+>Windows Registry Editor Version 5.00
+ 
+>[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
+>"RealAppName"="L1NK"
+
+>[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
+>"RealAppName"="C3"
+
+
 OutLine
 * VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.
 * VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin VB6Porter
@@ -44,14 +56,3 @@ MSO.DLL, MSOINTL.DLL, SELFCERT.EXE, SIGNER.DLL, MSVBVM60.DLL, MSSTDFMT.DLL, MSST
 VBA Core Installer Package (MSI)
 MICROSOFT provides a setup package that installs all the core VBA technologies onto an end users machine.  This prevents accidental disabling of VBA functionality due to an improper installation of VBA components. 
 
-
-Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
-Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
-
->Windows Registry Editor Version 5.00
- 
->[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
->"RealAppName"="L1NK"
-
->[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
->"RealAppName"="C3"
