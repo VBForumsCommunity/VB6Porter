@@ -3,9 +3,9 @@
 3. Download and unzip the Visual Basic 6 projects
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
 5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
-6. Rename C2.EXE to C3.EXE, and then rename LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE
-7. Move/replace C2.EXE, and LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
-8. Open OUTARGS registry file, ie outargs.reg
+6. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE
+7. To replace, move OUTARGS\C2.EXE, and OUTARGS\LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
+8. Open the OUTARGS\outargs.REG registry file, to redirect Windows to the new files.
 9. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 10. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 11. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
