@@ -1,11 +1,14 @@
 1. Download and merge the VBA SDK with WinRAR, for installation.
 2. Install the VBA 6.5 SDK
-3. Download and unzip both projects
+3. Download and unzip the Visual Basic 6 projects
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
 5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
-6. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-7. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-8. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
+6. Rename C2.EXE to C3.EXE, and then rename LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE
+7. Move/replace C2.EXE, and LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
+8. Open OUTARGS registry file, ie outargs.reg
+9. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+10. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+11. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including, auto indenting (Pretty listing, reformatting of code), scroll wheel support, forms and controls renaming, Start without debugging, greater number of undos, and many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and the available code base.  A detailed error list can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to any of the errors listed.  There is also an option to detect file changes outside of the code editor that allows you to reload files from outside, or reject/overwrite them.  It supports a use of the language that accomodates porting VB code, both forwards and backwards. API's and their types can be inserted automatically when the name of the API is typed into the code editor.  Auto class instancing is still in the works to replicate VB.NET namespaces in VB6.
 
@@ -41,3 +44,13 @@ MSO.DLL, MSOINTL.DLL, SELFCERT.EXE, SIGNER.DLL, MSVBVM60.DLL, MSSTDFMT.DLL, MSST
 VBA Core Installer Package (MSI)
 MICROSOFT provides a setup package that installs all the core VBA technologies onto an end users machine.  This prevents accidental disabling of VBA functionality due to an improper installation of VBA components. 
 
+
+Registry edit file (outargs.ref) for C3.EXE, L1NK.EXE output feature:
+
+>Windows Registry Editor Version 5.00
+ 
+>[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
+>"RealAppName"="L1NK"
+
+>[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
+>"RealAppName"="C3"
