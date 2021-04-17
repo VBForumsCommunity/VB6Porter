@@ -14,7 +14,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 
 OutLine
 * VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.
-* VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin above
+* VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin VB6Porter
 * VBA65 Host dll (clsAPCVBA65.cls) - yields the  VBA object model to the host class clsVBA65.cls
 
  Visual Basic for Applications is an embeddable BASIC language software product comprised of the following components:
