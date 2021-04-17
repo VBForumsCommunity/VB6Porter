@@ -45,7 +45,7 @@ VBA Core Installer Package (MSI)
 MICROSOFT provides a setup package that installs all the core VBA technologies onto an end users machine.  This prevents accidental disabling of VBA functionality due to an improper installation of VBA components. 
 
 
-Registry edit file (outargs.ref) for C3.EXE, L1NK.EXE output feature:
+Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
 
 >Windows Registry Editor Version 5.00
  
