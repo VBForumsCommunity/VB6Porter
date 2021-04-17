@@ -1,6 +1,6 @@
 1. Download and merge the VBA SDK with WinRAR, for installation.
 2. Install the VBA 6.5 SDK
-3. Download and unzip the Visual Basic 6 projects
+3. Download and unzip the 3 Visual Basic 6 projects
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
 5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
 6. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE
