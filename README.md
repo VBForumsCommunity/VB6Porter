@@ -1,10 +1,11 @@
 1. Download and merge the VBA SDK with WinRAR, for installation.
 2. Install the VBA 6.5 SDK
-3. Download and unzip projects
+3. Download and unzip both projects
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
-5. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-6. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-7. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
+5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
+6. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+7. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+8. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including, auto indenting (Pretty listing, reformatting of code), scroll wheel support, forms and controls renaming, Start without debugging, and many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and the available code base.  A detailed error list can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to any of the errors listed.  There is also an option to detect file changes outside of the code editor that allows you to reload files from outside, or reject/overwrite them.  It supports a use of the language that accomodates porting VB code, both forwards and backwards. API's and their types can be inserted automatically when the name of the API is typed into the code editor.  Auto class instancing is still in the works to replicate VB.NET namespaces in VB6.
 
