@@ -12,7 +12,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
 5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
 5b. Or, rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.  To replace, move OUTARGS\C2.EXE, and OUTARGS\LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
-6. Open the OUTARGS\outargs.REG registry file, to redirect Windows to the new files.
+6. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
 7. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 8. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 9. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
