@@ -3,6 +3,7 @@ OutLine
 * VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations and NameSpace classes, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space.
 * VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin VB6Porter
 * VBA65 Host dll (clsAPCVBA65.cls) - yields the  VBA object model to the host class clsVBA65.cls
+* VBA65 addin dll (AutoIndenter.dll) - provides the same code editing features, and automatic indentation in the VBA IDE (optional)
 
 https://www.youtube.com/watch?v=4fLTDP0hEzU
 
@@ -17,7 +18,8 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 6. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
 7. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
 8. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-9. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
+9. Compile AutoIndenter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+10. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
 Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
