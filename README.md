@@ -1,12 +1,11 @@
 
-This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  It supports a use of the language that accomodates porting VB code, both forwards and backwards.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including,
+This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  It supports a use of the language that accomodates porting VB code, both forwards and backwards.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including to following options:
 * Scroll wheel support
 * Auto indenting (Pretty listing)
-* Autocompletion of end constructs
+* Autocompletion of end constructs, ie If/End, Do/Loop, For/Next etc..
 * 500 undos/redos
-* Start without debugging
-* Project error parsing
-* Forms/controls renaming
+* Start without debugging.  Saves, makes, and starts the built executable
+* Modules/controls renaming.  Renames project files to match the module name.
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and the available code base. 
 * Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to any of the errors listed
 * View build output by redirecting the compiler executables and capturing their arguments being passed. 
