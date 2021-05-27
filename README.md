@@ -7,9 +7,9 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Start without debugging.  Saves, makes, and starts the built executable
 * Modules/controls renaming.  Renames project files to match the module name
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
+* Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
 * Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  Devleloper can jump directly to the listed errors 
 * View build output by redirecting the compiler executables and capturing their arguments being passed
-* Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll. https://www.youtube.com/user/primedivine
 
