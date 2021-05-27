@@ -5,16 +5,16 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Autocompletion of end constructs, ie If/End, Do/Loop, For/Next etc..
 * 500 undos/redos
 * Start without debugging.  Saves, makes, and starts the built executable
-* Modules/controls renaming.  Renames project files to match the module name.
-* Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and the available code base. 
-* Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to any of the errors listed
-* View build output by redirecting the compiler executables and capturing their arguments being passed. 
-* Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them.
-* API's and their types can be inserted automatically when the name of the API is typed into the code editor.
+* Modules/controls renaming.  Renames project files to match the module name
+* Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
+* Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors, but with an ability to jump directly to the listed errors 
+* View build output by redirecting the compiler executables and capturing their arguments being passed
+* Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
+* API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll. https://www.youtube.com/user/primedivine
 
 OutLine
-* VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.  This might be useful if you want to protect certain code modules with the VBA project format, or take advantage of the different thread
+* VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.
 * VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin VB6Porter
 * VBA65 Host dll (clsAPCVBA65.cls) - yields the  VBA object model to the host class clsVBA65.cls
 * (optional) AutoIndenter addin dll - VBA IDE upgrades with the same code editing features and automatic indentation as the VB6Porter addin
