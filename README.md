@@ -9,8 +9,8 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
 * Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
 * Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  Devleloper can jump directly to the listed errors 
-* View build output by redirecting the compiler executables and capturing their arguments being passed
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
+* View build output by redirecting the compiler executables and capturing their arguments being passed
 * Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll. https://www.youtube.com/user/primedivine
 
 OutLine
