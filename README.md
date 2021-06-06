@@ -12,7 +12,9 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
-* Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll. https://www.youtube.com/user/primedivine
+* Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll.
+* https://github.com/WindowStations/VB6NameSpaces
+* https://www.youtube.com/user/primedivine
 
 OutLine
 * VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.
