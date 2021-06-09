@@ -8,7 +8,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Modules renaming.  Renames project files to match the module name change
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
 * Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
-* Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  Devleloper can jump directly to the listed errors 
+* Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  The developer can jump directly to the listed errors 
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
@@ -23,6 +23,7 @@ OutLine
 * (optional) AutoIndenter addin dll - VBA IDE upgrades with the same code editing features and automatic indentation as the VB6Porter addin
 * (optional) A single VB.NET assembly now makes it possible to port VB.NET code directlly to VB6.  It can also help prepare VB6 source code, for migration to VB.NET.  The assembly interoperates with VB.NET's NameSpaces so that they can consumed by VB6 as nested class buckets.  Significant strides have been made to fully support VB.NET controls/properties/events and Namespaces directly through advanced dynamic interop.
 
+Installation
 1. Download and merge the VBA SDK with WinRAR, for installation.
 2. Install the VBA 6.5 SDK
 3. Download and unzip the 3 projects
