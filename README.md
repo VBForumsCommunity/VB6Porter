@@ -7,7 +7,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Start without debugging.  Saves, makes, and starts the built executable
 * Modules renaming.  Renames project files to match the module name change
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
-* Detect any project file changes outside of the code editor.  Allows the developer reload files from outside, or reject/overwrite them
+* Detect any project file changes outside of the code editor.  Allows the developer to reload files from outside, or reject/overwrite them
 * Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  The developer can jump directly to the listed errors 
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Advanced build switches hooked with the intercept method shown by the Trick
