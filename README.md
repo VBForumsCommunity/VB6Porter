@@ -29,20 +29,20 @@ Pre-installation
 2. Install the VBA 6.5 SDK
 3. Download and unzip the 3 projects
 4. Move the VB65 folder into the Template folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template
-5a. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
-5b. Or, rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.  To replace, move OUTARGS\C2.EXE, and OUTARGS\LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
-6. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
+5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
+6. Or, rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.  To replace, move OUTARGS\C2.EXE, and OUTARGS\LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
+7. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
 
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
 Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
 
->Windows Registry Editor Version 5.00
+   >Windows Registry Editor Version 5.00
  
->[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
->"RealAppName"="L1NK"
+   >[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
+   >"RealAppName"="L1NK"
 
->[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
->"RealAppName"="C3"
+   >[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
+   >"RealAppName"="C3"
 
 
 Installation
@@ -53,7 +53,9 @@ Installation
 * To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 
+
 Addtional information
+
  Visual Basic for Applications is an embeddable BASIC language software product comprised of the following components:
  * VBA
  * APC
