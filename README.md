@@ -17,11 +17,11 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * https://www.youtube.com/user/primedivine
 
 OutLine
-* VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.
+* VB6Porter addin dll - VB6 IDE upgrades with full access/control over the VBA object model, allowing developers to combine/port modules etc between VB6/VBA object models.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.  A single VB.NET assembly now makes it possible to port VB.NET code directlly to VB6.  It can also help prepare VB6 source code, for migration to VB.NET.  The assembly interoperates with VB.NET's NameSpaces so that they can consumed by VB6 as nested class buckets.  Significant strides have been made to fully support VB.NET controls/properties/events and Namespaces directly through advanced dynamic interop.
 * VBA65 Host dll (clsVBA65.cls) - yields the VBA object model to the parent addin VB6Porter
 * VBA65 Host dll (clsAPCVBA65.cls) - yields the  VBA object model to the host class clsVBA65.cls
 * (optional) AutoIndenter addin dll - VBA IDE upgrades with the same code editing features and automatic indentation as the VB6Porter addin
-* (optional) A single VB.NET assembly now makes it possible to port VB.NET code directlly to VB6.  It can also help prepare VB6 source code, for migration to VB.NET.  The assembly interoperates with VB.NET's NameSpaces so that they can consumed by VB6 as nested class buckets.  Significant strides have been made to fully support VB.NET controls/properties/events and Namespaces directly through advanced dynamic interop.
+
 
 Installation
 1. Download and merge the VBA SDK with WinRAR, for installation.
