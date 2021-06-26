@@ -31,10 +31,10 @@ Installation
 5. Move the files inside the VB98 folder into the MVS folder, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98
 5b. Or, rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.  To replace, move OUTARGS\C2.EXE, and OUTARGS\LINK.EXE, into the MVS folder, C:\Program Files (x86)\Microsoft Visual Studio\VB98\C2.EXE
 6. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
-7. (Optional) - Register the VB.NET assembly to extend VB6 capabilities and to design VB.NET forms https://github.com/WindowStations/VB6NameSpaces
-8. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-9. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
-10. Compile AutoIndenter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.
+7. Register the VB.NET assembly to extend VB6 capabilities and to design VB.NET forms with the VB6Porter addin https://github.com/WindowStations/VB6NameSpaces
+8. Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This provides access to the VBA object model.
+9. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This integrates the object models of VBA, VB6 and VB.NET.
+10. Compile AutoIndenter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This provides the VBA IDE with the same code editing functions from VB6Porter.
 11. To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
