@@ -49,7 +49,7 @@ Installation
 1. Register the VB.NET assembly to extend VB6 capabilities and to design VB.NET forms with the VB6Porter addin https://github.com/WindowStations/VB6NameSpaces
 2.  Compile VBA65.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This provides access to the VBA object model.
 3. Compile VB6Porter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This integrates the object models of VBA, VB6 and VB.NET.
-4. Compile AutoIndenter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This provides the VBA IDE with the same code editing functions from VB6Porter.
+4. Compile AutoIndenter.dll to the C:\Program Files (x86)\Microsoft Visual Studio\VB98 folder, as administrator.  This provides the VBA IDE with the same code editing functions as VB6Porter.
 * To recompile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 
