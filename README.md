@@ -12,7 +12,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
-* Common VB.NET controls and Namespaces will be available to VB6 later this year, as a user friendly ComVisible NET dll.
+* Common VB.NET controls and Namespaces are now BETA testable as a user friendly ComVisible NET dll.
 * https://github.com/WindowStations/VB6NameSpaces
 * https://www.youtube.com/user/primedivine
 
