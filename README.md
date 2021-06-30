@@ -22,11 +22,11 @@ OutLine
 
 
 Pre-installation
-3. Download and unzip the project files.
-4. Move the VB65 folder into the Template folder, ie "C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template"
-6. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.
-7. Replace the files with the project files from OUTARGS, ie OUTARGS\C2.EXE, and OUTARGS\LINK.EXE
-8. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
+1. Download and unzip the project files.
+2. Move the VB65 folder into the Template folder, ie "C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template"
+3. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.
+4. Replace the files with the project files from OUTARGS, ie OUTARGS\C2.EXE, and OUTARGS\LINK.EXE
+5. Open the OUTARGS\outargs.REG registry file, to redirect Windows to these new files.
 
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
 Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
