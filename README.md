@@ -4,10 +4,10 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Auto indenting (Pretty listing)
 * Autocompletion of end constructs, ie If/End, Do/Loop, For/Next etc..
 * 500 undos/redos
+* Detect any project file changes outside of the code editor.  Allows the developer to reload files from outside, or reject/overwrite them
 * Start without debugging.  Saves, makes, and starts the built executable
 * Modules renaming.  Renames project files to match the module name change
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
-* Detect any project file changes outside of the code editor.  Allows the developer to reload files from outside, or reject/overwrite them
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
 * Common VB.NET controls and Namespaces are now BETA testable as a user friendly ComVisible NET dll.
