@@ -8,8 +8,6 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Modules renaming.  Renames project files to match the module name change
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
 * Detect any project file changes outside of the code editor.  Allows the developer to reload files from outside, or reject/overwrite them
-* Project error parsing can be generated with the Pre-compile button, similar to the "Auto Syntax Check" errors.  The developer can jump directly to the listed errors 
-* API's and their types can be inserted automatically when the name of the API is typed into the code editor
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
 * Common VB.NET controls and Namespaces are now BETA testable as a user friendly ComVisible NET dll.
