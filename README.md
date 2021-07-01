@@ -10,7 +10,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Many code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
-* VB.NET Forms, common controls, and Namespaces with modern form/control designer
+* VB.NET Forms, common controls, and Namespaces with a modern form/control designer
 * https://github.com/WindowStations/VB6NameSpaces
 * https://www.youtube.com/user/primedivine
 
