@@ -45,37 +45,3 @@ Installation
 
 
 
-Addtional information
-
- Visual Basic for Applications is an embeddable BASIC language software product comprised of the following components:
- * VBA
- * APC
- * Microsoft Forms
- * Core Technology   
- * End User Documentation and derivatives
- * VBA Core Installer Package
-
-VBA 
-These are the binary files that make up the core VBA deliverable.  This includes the language runtime and user interface components including editing, debugging, project management, property control. It also includes the files need for Multi-threading and the multi-threading runtime. 
-VBE6.DLL, VBE6EXT.OLB, SCP32.DLL, VBE6INTL.DLL, VBAME.DLL, LINK.EXE, MSPDB60.DLL, MTDSR.DLL, VBA6MTRT.DLL, VB6DEBUG.DLL 
-  
-APC 
-These are the binary files that make up the application programming interface (API) layer to integrate VBA.
-APC65.DLL, APC60ITL.DLL 
-
-Microsoft Forms
-This provides a complete visual editing and dialog design environment. 
-FM20.DLL, FM20ENU.DLL, RICHED20.DLL
-
-Core Technology
-VBA is dependent on a set of MICROSOFT core proprietary technology.  These technologies are to be consumed by VBA only.  Hosts of VBA are forbidden from accessing core technology directly. 
-MSO.DLL, MSOINTL.DLL, SELFCERT.EXE, SIGNER.DLL, MSVBVM60.DLL, MSSTDFMT.DLL, MSSTKPRP.DLL, HLP95EN.DLL    
-
-VBA Core Installer Package (MSI)
-MICROSOFT provides a setup package that installs all the core VBA technologies onto an end users machine.  This prevents accidental disabling of VBA functionality due to an improper installation of VBA components. 
-
-VBA 6.x includes a multithreading capability (VBAMT) that allows the developer to create multithreaded projects, i.e., projects containing multiple threads that can execute concurrently. These projects are “standalone” in that the code that executes is not tightly coupled to the GUI instance of the application that hosts the VBA IDE. The process begins with a host application that registers one or more multithreading (“MT”) project types. Using these registered project types and an ActiveX VBA MT Designer, users of the application can create multithreaded projects, which are compiled and published as stand-alone DLLs.
-A published MT project DLL can be used by other multithreaded host applications. To do so, a thread creates an instance of a VBA MT runtime object and an instance of a global application object associated with the MT project, against which the MT project executes code. The VBA MT runtime object is initialized through the IVbaMT interface, which loads all registered MT project DLLs. The collection of loaded MT project DLLs can be accessed through the IVbaMTDlls interface. Any number of threads can use an MT project DLL concurrently.
-When a new MT project is created, a design instance of the MT Designer is created and associated with a logical group of threads. The user can then add classes, forms, and modules to the project. However, VBA MT provides that these classes are not publicly creatable outside of the VBA environment. Nor are these classes instances of the templated objects of an object model. The VBAMT capability provides no mechanisms to assist the end user with integrating a VBAMT project object into an enterprise wide application with a minimum of knowledge by the end user of the specifics of how to integrate into the enterprise environment.
-VBA does allow the public creation of an ActiveX designer instance from a standalone project, but ActiveX designers require high-level programming skill and still do not provide the convenient object model integration support that a typical end user would require.
-
