@@ -21,7 +21,7 @@ OutLine
 * (Optional) VBA65 Host dll (clsAPCVBA65.cls) - yields the  VBA object model to the host class clsVBA65.cls
 
 
-Pre-installation
+Pre-installation options
 1. Download and unzip the project files.
 2. Move the VB65 folder into the Template folder, ie "C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template"
 3. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.
