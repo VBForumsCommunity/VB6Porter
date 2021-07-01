@@ -16,11 +16,11 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 
 OutLine
 * VB interop dll - A single VB.NET assembly now makes it possible to port VB.NET code directlly to VBA/VB6, or it can help port VB6 code to VB.NET.  The assembly interoperates with VB.NET's NameSpaces so that they can be consumed by VB6 as nested class buckets.  Significant strides have been made to fully support VB.NET controls/properties/events and Namespaces directly through advanced dynamic interop.
-* VB6Porter addin dll - VB6 IDE upgrades with full access/control over the object models of VBA and VB.NET, with the interop assembly (VB.DLL).  It allows developers to combine/port modules etc between VB6/VBA/VB.NET.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.
-* (Optional) - VBA65 Host dll (clsVBA65.cls) yields the VBA object model to the parent addin VB6Porter - VBA65 Host dll (clsAPCVBA65.cls) yields the  VBA object model to the host class clsVBA65.cls
+* VB6Porter addin dll - VB6 IDE upgrades with full access and control over the object models of VBA and VB.NET, along with the interop assembly (VB.DLL).  It allows developers to combine/port modules etc between VB6/VBA/VB.NET. 
+* (Optional) - VBA65 Host dll (clsVBA65.cls) yields the VBA object model to the parent addin VB6Porter - VBA65 Host dll (clsAPCVBA65.cls) yields the  VBA object model to the host class clsVBA65.cls.  VBA 6.5 has some unique features that the extensibility model 5.3/6.0 does not have, including but not limited to, a precompile option and line error parsing abilities.  It serves as a code repository for API delarations, allowing the VB6 code editor instant access to insert code module information into the current development project, from the VBA project space. You may also execute code procedures that are inside of a standard module inside of a coupled VBA project from the VB6 addin.
 
 
-Pre-installation options
+Pre-installation and options
 1. Download and unzip the project files.
 2. Move the VB65 folder into the Template folder, ie "C:\Program Files (x86)\Microsoft Visual Studio\VB98\Template"
 3. Rename your C2.EXE to C3.EXE, and LINK.EXE to L1NK.EXE, ie C:\Program Files (x86)\Microsoft Visual Studio\VB98\C3.EXE.
