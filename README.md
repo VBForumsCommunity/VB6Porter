@@ -12,8 +12,6 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Advanced build switches hooked with the intercept method shown by the Trick
 * View build output by redirecting the compiler executables and capturing their arguments being passed
 * VB.NET Forms, common controls, and Namespaces with a modern form/control designer
-* https://github.com/WindowStations/VB6NameSpaces
-* https://www.youtube.com/user/primedivine
 
 OutLine
 * VB interop dll - A single VB.NET assembly now makes it possible to port VB.NET code directlly to VBA/VB6, or it can help port VB6 code to VB.NET.  The assembly interoperates with VB.NET's NameSpaces so that they can be consumed by VB6 as nested class buckets.  Significant strides have been made to fully support VB.NET controls/properties/events and Namespaces directly through advanced dynamic interop.
