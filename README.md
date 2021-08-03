@@ -30,7 +30,7 @@ Pre-installation and options
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
 Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
 ```
-   >Windows Registry Editor Version 5.00
+   Windows Registry Editor Version 5.00
  
    [HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
    "RealAppName"="L1NK"
