@@ -29,15 +29,15 @@ Pre-installation and options
 
 Advanced Microsoft Visual Basics (second edition) Chapter 7. Page 275.
 Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
-
+```
    >Windows Registry Editor Version 5.00
  
-   >[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
-   >"RealAppName"="L1NK"
+   [HKEY_CURRENT_USER\Software\VB and VBA Program Settings\LINK\Startup]
+   "RealAppName"="L1NK"
 
-   >[HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
-   >"RealAppName"="C3"
-
+   [HKEY_CURRENT_USER\Software\VB and VBA Program Settings\C2\Startup]
+   "RealAppName"="C3"
+```
 
 Installation
 1. Register the VB.NET assembly named VB.dll with the setup file named SetupRegisterAssembly.exe https://github.com/WindowStations/VB6NameSpaces
