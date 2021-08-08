@@ -10,7 +10,7 @@ This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an ad
 * Modules renaming.  Renames project files to match the module name change
 * Code editing functions that prepare vb6 to be more explicit and more interchangable with vb.net standards and code base
 * Advanced build switches hooked with the intercept method shown by the Trick
-* View build output by redirecting the compiler executables and capturing their arguments being passed
+* View build output by redirecting the compiler (vb6.exe to c2.exe & link.exe) and capturing the arguments being passed between them
 * VB.NET Forms, common controls, and Namespaces with a modern form/control designer
 
 OutLine
