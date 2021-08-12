@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=RJmDeGAroR4
 
-This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  It supports a use of the language that accomodates porting VB code, both forwards and backwards.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including the following options:
+This is a comprehensive upgrade for the Visual Basic 6.0 IDE, available as an addin.  It supports a use of the language that accommodates porting VB code, both forwards and backwards.  The addin was created with the same code base developed for/with the Visual Basic 6.5 IDE/VBA 6.5 SDK integration class.  It duplicates several advanced VB.NET IDE features including the following options:
 * Scroll wheel support
 * Auto indenting (Pretty listing)
 * Autocompletion of end constructs, ie If/End, Do/Loop, For/Next etc..
