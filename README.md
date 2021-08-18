@@ -39,9 +39,15 @@ Registry edit file (outargs.reg) for C3.EXE, L1NK.EXE output feature:
    "RealAppName"="C3"
 ```
 
-Installation
-1. Register the VB.NET assembly named VB.dll with the setup file named SetupRegisterAssembly.exe https://github.com/WindowStations/VB6NameSpaces
-3. Compile or register VB6Porter.dll as administrator, inside the folder location: C:\Program Files (x86)\Microsoft Visual Studio\VB98.  This integrates the object models of VBA, VB6 and VB.NET.  * To re-compile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
+
+Installation 
+
+* Installer: https://github.com/VBForumsCommunity/VB6Porter/raw/master/SetupVB6Porter.exe
+
+
+method 2
+* Register the VB.NET assembly named VB.dll with the setup file named SetupRegisterAssembly.exe https://github.com/WindowStations/VB6NameSpaces
+* Compile or register VB6Porter.dll as administrator, inside the folder location: C:\Program Files (x86)\Microsoft Visual Studio\VB98.  This integrates the object models of VBA, VB6 and VB.NET.  * To re-compile, you may have to close/release all instances of any loaded IDE/addins and delete/kill the old dll.
 
 
 
