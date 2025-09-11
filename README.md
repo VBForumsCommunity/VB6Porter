@@ -1,9 +1,13 @@
 Updates coming this December 2025!
 * Much tigher integration between the form designer and vb6 code modules.
-* Cleaned up some stray underscores and used [] to avoid collisions between keywords and properties or  method names.
+* Cleaned up some stray underscores and used [] to avoid collisions between keywords and properties or method names.
 * Updated the vb.net module to yield the default event when spawning them from the vb6 IDE.
 * Completed the full set of vb.net controls and components.
 * Updated the save/load functions to automatically save/load.
+* Insertion of xml headers to methods and properties.  Export function to save headers to a helpful file.
+* Minor code formatting enhancments.
+* Backspace over white spaces while adhering to the code format.
+* Proper vb6 code folding, the right way.
 * More to come...
 
 ![alt text](https://user-images.githubusercontent.com/39764372/137580245-97a931ea-6382-4400-9822-b850e0eb6603.png)
