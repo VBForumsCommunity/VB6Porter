@@ -17,7 +17,7 @@ Updates coming this December 2025!
 * Fixed bug where drag/dropping code caused extra spaces to be generated when using line numbers.
 * Added kill button with option to kill all processes (if more than one) matching the same name as the started process.
 * Added the kill function to the Start button process, ensuring startup is handled properly if tested application is hanging in the background.
-* Export detailed project info as an XML similar to VB.NET.  Save file to desired location.
+* Export detailed project info in XML format similar to VB.NET.  Save file to desired location.
 * Insert XML header to a method similar to VB.NET.  Type ''' above any method or property.
 * Sound queues optional.
 * More to come...
