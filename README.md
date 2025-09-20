@@ -8,6 +8,16 @@ Updates coming this December 2025!
 * Minor code formatting enhancments.
 * Backspace over white spaces while adhering to the code format.
 * Proper vb6 code folding, the right way.
+* In line autocompletion optional.  Many errors starting with 'Expected X': can be autocompleted with spacebar.  It saves time typing to construct the same line.
+* For instance, Type Dim i, then press spacebar.  It will generate Dim i As , with the intellisense open to select the type with arrow key.
+* The 'Open' file constructor is optional.  Type Open, then press spacebar.  The whole file open and close structure will appear with randomized file number.
+* The 'msgbox' result constructor is optional.  Type: msgbox( Then press: spacebar.  The whole msgbox constructor will appear.  It generates a randomized variable for the yes/no response.
+* On Error completion is helpful. The Goto option constructs the whole error handling snippet including a jump line and Erl with description.  It avoids the exit sub/function keywords.  It allows additional error handling of the procedure, ie On Error Resume Next can still be used before or after the GoTo/Exception region.  Simply type: On Error spacebar.
+* Line numbers are added dynamically at compile time, and erased by design time.  The On Error constructor now has the line number from ERL.
+* Fixed bug where drag/dropping code caused extra spaces to be generated when using line numbers.
+* Added kill button with option to kill all processes (if more than one) matching the same name as the started process.
+* Added the kill function to the Start button process, ensuring startup is handled properly if tested application is hanging in the background.
+* Sound queues optional.
 * More to come...
 
 ![alt text](https://user-images.githubusercontent.com/39764372/137580245-97a931ea-6382-4400-9822-b850e0eb6603.png)
