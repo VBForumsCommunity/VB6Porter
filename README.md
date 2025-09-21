@@ -7,7 +7,7 @@ Updates coming this December 2025!
 * Code formatting enhancments.
 * Backspace over white spaces while adhering to the code format.
 * Proper vb6 code folding, the right way.
-* In line autocompletion optional.  Many errors starting with 'Expected X': can be autocompleted with spacebar.  It saves time typing to construct the same line.
+* In line autocompletion optional.  Many syntax errors starting with 'Expected X': can be autocompleted with spacebar.  It saves time typing to construct the same line.
 * For instance, Type Dim i, then press spacebar.  It will generate Dim i As , with the intellisense open to select the type with arrow key.
 * The 'Open' file constructor is optional.  Type Open, then press spacebar.  The whole file open and close structure will appear with randomized file number.
 * The 'msgbox' result constructor is optional.  Type: msgbox( Then press: spacebar.  The whole msgbox constructor will appear.  It generates a randomized variable for the yes/no response.
