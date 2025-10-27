@@ -6,7 +6,6 @@ Updates coming this [December 2025!](https://youtube.com/playlist?list=PLkpDl8aM
 * Updated the save/load functions to automatically save/load.
 * Code formatting enhancments.
 * Backspace over white spaces while adhering to the code format.
-* Proper vb6 code folding, the right way.
 * In line autocompletion optional.  Many syntax errors starting with 'Expected X': can be autocompleted with spacebar.  It saves time typing to construct the same line.
 * For instance, Type Dim i, then press spacebar.  It will generate Dim i As , with the intellisense open to select the type with arrow key.
 * The 'Open' file constructor is optional.  Type Open, then press spacebar.  The whole file open and close structure will appear with randomized file number.
@@ -18,7 +17,21 @@ Updates coming this [December 2025!](https://youtube.com/playlist?list=PLkpDl8aM
 * Added the kill function to the Start button process, ensuring startup is handled properly if tested application is hanging in the background.
 * Export detailed project info in XML format similar to VB.NET.  Save file to desired location.
 * Insert XML header to a method similar to VB.NET.  Type ''' above any method or property.
-* Sound queues optional.
+* The end of the body of a procedure is now determined by subtracting the footer size from the end line.
+Previously, the functions were looking past the end of the procedure since the ending line was juxtaposed.
+It didn't cause any bugs, but it was not efficient and not correct.  The new function called 'GetProcedureInfoFromLine' has everything gathered in one convenient type.  It includes properties as well.
+* Autocomplete line-continuation bug is now fixed.  It no longer tries to auto-complete when continuing a line, ie space-underscore-enter.
+Code formatting is now recognizing the line continuation for proper indenting.
+* Undo buffer quirk is now fixed.  The buffer was being erased at the half way point, so virtually no undo's were available until they accrued again.
+* A reference to the designer dll is now added, when you open the designer form.
+* A Remove all comments function is now implemented.  This backend function also helps the search function by filtering out matches within comments.
+* Remove all blank lines fixed.  Walking backwards was the trick.
+* Remove all underscores fixed.  Same, walk backwards.
+* Remove all colons now implemented.  Super! lol.  The hell with those colons and underscores I say.
+* ...
+  
+Planned for 2026
+* Proper vb6 code folding, the right way.
 * More to come...
 
 ![alt text](https://user-images.githubusercontent.com/39764372/137580245-97a931ea-6382-4400-9822-b850e0eb6603.png)
