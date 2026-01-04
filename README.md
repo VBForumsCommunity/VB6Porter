@@ -1,4 +1,4 @@
-Updates coming this [December 2025!](https://youtube.com/playlist?list=PLkpDl8aMSQfNj1yWnrSHbYK-qy2yQ-tLv&si=3qmFDLtqtvDoC3Cq)
+Updates coming this [year](https://youtube.com/playlist?list=PLkpDl8aMSQfNj1yWnrSHbYK-qy2yQ-tLv&si=3qmFDLtqtvDoC3Cq)
 * Much tigher integration between the form designer and vb6 code modules.
 * Cleaned up some stray underscores and used [] to avoid collisions between keywords and properties or method names.
 * Updated the vb.net module to yield the default event when spawning them from the vb6 IDE.
