@@ -1,3 +1,5 @@
+OPERATION CAMEL SPIDER BEGIN!  TARGET WWASP (world wide association of specialty programs).  Please remain invisible...
+
 Updates coming this [year](https://youtube.com/playlist?list=PLkpDl8aMSQfNj1yWnrSHbYK-qy2yQ-tLv&si=3qmFDLtqtvDoC3Cq)
 * Much tigher integration between the form designer and vb6 code modules.
 * Cleaned up some stray underscores and used [] to avoid collisions between keywords and properties or method names.
