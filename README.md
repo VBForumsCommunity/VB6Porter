@@ -1,6 +1,6 @@
 OPERATION CAMEL SPIDER BEGIN!  TARGET WWASP (world wide association of specialty programs).  Please remain invisible...
 
-![alt text](https://github.com/WindowStations/VB6NameSpaces/issues/1#issuecomment-4107199084)
+![Image](https://github.com/user-attachments/assets/233825d3-59ab-4ff9-b9dc-6756f50c5015)
 
 Updates coming this [year](https://youtube.com/playlist?list=PLkpDl8aMSQfNj1yWnrSHbYK-qy2yQ-tLv&si=3qmFDLtqtvDoC3Cq)
 * Much tigher integration between the form designer and vb6 code modules.
