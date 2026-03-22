@@ -1,5 +1,7 @@
 OPERATION CAMEL SPIDER BEGIN!  TARGET WWASP (world wide association of specialty programs).  Please remain invisible...
 
+![alt text](https://github.com/WindowStations/VB6NameSpaces/issues/1#issuecomment-4107199084)
+
 Updates coming this [year](https://youtube.com/playlist?list=PLkpDl8aMSQfNj1yWnrSHbYK-qy2yQ-tLv&si=3qmFDLtqtvDoC3Cq)
 * Much tigher integration between the form designer and vb6 code modules.
 * Cleaned up some stray underscores and used [] to avoid collisions between keywords and properties or method names.
@@ -35,6 +37,8 @@ Code formatting is now recognizing the line continuation for proper indenting.
 Planned for 2026
 * Proper vb6 code folding, the right way.
 * More to come...
+
+
 
 ![alt text](https://user-images.githubusercontent.com/39764372/137580245-97a931ea-6382-4400-9822-b850e0eb6603.png)
 ![venn](https://github.com/user-attachments/assets/cfbe7652-9edb-455d-8c6c-65070af327c1)
