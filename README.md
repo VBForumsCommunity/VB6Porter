@@ -34,10 +34,6 @@ Code formatting is now recognizing the line continuation for proper indenting.
 * Remove all colons now implemented.  Super! lol.  The hell with those colons and underscores I say.
 * ...
   
-Planned for 2026
-* Proper vb6 code folding, the right way.
-* More to come...
-
 
 
 ![alt text](https://user-images.githubusercontent.com/39764372/137580245-97a931ea-6382-4400-9822-b850e0eb6603.png)
